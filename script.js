@@ -8,14 +8,14 @@ class Animal {
 	}
 
 	makeSound(){
-	console.log(`This ${this._species} makes a sound`)
+	console.log(`The ${this._species} makes a sound`)
 	}
 	
 }
 
 class Dog extends Animal {
 	bark(){
-		console.log("bark");
+		console.log("woof");
 	}
 }
 
